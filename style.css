@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5C0EA;
+}
+.recuadro {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.logoAlura {
+    width: 100%;
+    float: left;
+    background-color: #ffffff  
+    font-size: 20px;
+}
+.imgA{
+    margin: inherit;
+    margin-top: 1%; 
+    margin-left: 2%;
+}
+.tituloPrincipa{
+    margin-left: 5%;
+    margin: inherit;
+
+}
+.textInput {
+    float: left;
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #343A40;
+    border: none;
+    outline: none;
+    background-color: #ffffff;;
+}
+.textoPrincipal{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background-color: #ffffff;   
+}
+.textoDerecha{
+    float: right;
+    width: 30%;
+    height: 580px;
+    border-radius: 24px;
+    background-color: #ffffff;   
+    font-size: 16px;
+    
+}
+.textright {
+    float: left;
+    width: 80%;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.img-muneco {
+    margin-top: 20%;
+    width: auto;
+    height: 250px;
+    margin-left : 2%;
+    background: #FFFFFF;
+
+}
+.panel-muneco{
+padding: 20px;   
+float: left;
+width: 70%;
+height: 350px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300px;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #495057;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 10%;
+border: none;
+outline: none;
+font-size: 24px;
+}
+
+#textDerecha2{
+    width: 200px;
+    height: 110px;
+    resize : none;
+}
+
+#copiar {
+    margin-left: 33%;
+    padding: 12px;
+    width: 30%;
+    height : 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    margin-top: 400px;
+}
+
+.indicaciones{
+    height: auto;
+    border-radius: 24px;
+    background-color: #ffffff;;
+    text-align:center;
+    margin-top:  50%;
+}
+.indicaciones p {
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-align: left;
+    margin-left: 6%;
+}
+.Botones{
+    display:flex;
+    justify-content: center;
+}
+.boton {
+    width: 280px;
+    height: 19px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.botonEncriptar{
+font-family: 'Inter';
+font-style: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+order: 0;
+background: #0A3871; 
+text-align: center;
+
+}
+.botonDesencriptar{
+box-sizing: border-box;
+flex-direction: row;
+align-items: flex-start;
+background: #D8DFE8;
+border: 1px solid #0A3871;
+order: 1;
+text-align: center;
+} 

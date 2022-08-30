@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title> Encriptador Maria Laura </title>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+
+        <div class = "recuadro">
+            <div class="logoAlura">
+                <h1 class = "imgA"> <img src="Logo-1.png"alt = "LOGO ALURA" ></h1>
+                <h2 class = "tituloPrincipal"> Encriptador de mensajes </h2>
+            </div>
+            
+            <div class = "textoPrincipal">
+                <input class = "textInput" type="text" id = "textEncrip" placeholder="Ingrese el texto aquí" color: #0A3871>
+            
+            </div>
+
+            <div class = "textoDerecha">
+              <img class = "img-muneco" id = "imagenMuneco" src="Muñeco.png">
+              <h1 class = "textright" id = "textDerecha">Ningún mensaje fue encontrado </h1>
+              <textarea class = "panel-muneco" name = "panelMuneco" id = "textDerecha2">Ingrese el texto que desees encriptar o desencriptar </textarea>
+              <button id = "copiar" onClick="copiar()">Copiar</button>
+            </div>
+            
+           <div class = "indicaciones"> 
+            <p>Sólo letras minúsculas y sin acentos</p>
+            <div class = "Botones">                
+                <button type="button" class = "botonEncriptar boton" onClick="encriptar()" >Encriptar</button>
+                <button type="button" class = "botonDesencriptar boton " onClick="desencriptar()" >Desencriptar</button>    
+        </div>
+
+           </div>
+        </div>
+    
+    </body>
+
+</html>
+
